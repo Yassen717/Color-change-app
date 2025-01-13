@@ -41,7 +41,7 @@ Follow these steps to run the project locally:
 
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev 
    ```
 
 5. Open your browser and navigate to `http://localhost:5173` to see the app in action.
@@ -57,12 +57,10 @@ Follow these steps to run the project locally:
 ```
 .
 ├── src
-│   ├── App.js       # Main React component
-│   ├── index.js     # Entry point
+│   ├── App.tsx      # Main React component
+│   ├── index.tsx     # Entry point
 │   └── index.css    # Tailwind CSS configuration
-├── public
-│   ├── index.html   # HTML template
-│   └── favicon.ico  # Icon
+│ index.html   # HTML template
 └── package.json     # Project configuration
 ```
 
